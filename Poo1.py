@@ -11,7 +11,7 @@ class Persona:
 #Aqui es la def es una estructura para reutilizar el codigo y pueda cambiar la informacion agregada en los "datos"
     time.sleep(2)
     def info(self):
-        return f"Hola mi nombre es: {self.name}\nMi edad es: {self.age}\nTambien estudio la profesion de: {self.profesion}\ny mi cedula es: {self.dni}"
+        return f"Hola mi nombre es: {self.name}\nMi edad es: {self.age}\nEstudio la profesion de: {self.profesion}\ny mi cedula es: {self.dni}"
 #Def para cambiar el nombre
     def changer_name(self, new_name):
         """Aqui cambiamos el nombre"""
@@ -22,6 +22,16 @@ class Persona:
         """Aqui se corrigue la cc por si quedo mal"""
         self.dni = new_dni
         print(f"El nuevo numero de Cedula es: {self.dni}.") 
+#aqui podemos hacer otra funcion donde podemos saludar
+    def saludar (self):
+        """Aqui es poner de que estamos saludando"""
+        self.saludar = True
+        print(f"Hola yo {self.name}, \nTe esta saludando")
+    
+    def precentarse (self):
+        """Presentacion"""
+        self.precentarse = True
+        print(datos.info())
 #Aqui se ponen los datos que se va a utilizar para que se imprima con el "def info"
 datos = Persona("Daniel Molina", "20", "Programador", "1234567")
 #Aqui imprimimos lo que necesitamos para visualizar la estructura del info ya con los parametros 
@@ -29,5 +39,10 @@ print(datos.info())
 #Aqui es para modificar los parametros originales 
 time.sleep(2)
 print("================================================")
-datos.changer_name("Carlos Molina")
-datos.changer_cc ("987654")
+datos.changer_name("\nCarlos Molina")
+print("================================================")
+datos.changer_cc ("\n987654")
+print("================================================")
+datos.saludar()
+print("================================================")
+datos.precentarse()
