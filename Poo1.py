@@ -4,30 +4,30 @@ import time
 #Priemro creamos una clase
 class Persona:
     def __init__(self, name, age, profesion, dni):
-        self.name = name
-        self.age = age
-        self.profesion = profesion
-        self.dni = dni
+        self._name = name
+        self._age = age
+        self._profesion = profesion
+        self._dni = dni
 #Aqui es la def es una estructura para reutilizar el codigo y pueda cambiar la informacion agregada en los "datos"
     time.sleep(2)
     def info(self):
-        return f"Hola mi nombre es: {self.name}\nMi edad es: {self.age}\nEstudio la profesion de: {self.profesion}\ny mi cedula es: {self.dni}"
+        return f"Hola mi nombre es: {self._name}\nMi edad es: {self._age}\nEstudio la profesion de: {self._profesion}\ny mi cedula es: {self._dni}"
 #Def para cambiar el nombre
     def changer_name(self, new_name):
         """Aqui cambiamos el nombre"""
         self.name = new_name
-        print(f"El nuevo nombre de la perosna es: {self.name}.")
+        print(f"El nuevo nombre de la perosna es: {self._name}.")
 #Def para cambiar la cedula 
     def changer_cc(self, new_dni):
         """Aqui se corrigue la cc por si quedo mal"""
         self.dni = new_dni
-        print(f"El nuevo numero de Cedula es: {self.dni}.") 
+        print(f"El nuevo numero de Cedula es: {self._dni}.") 
 #aqui podemos hacer otra funcion donde podemos saludar
     def saludar (self):
         """Aqui es poner de que estamos saludando"""
         self.saludar = True
-        print(f"Hola yo {self.name}, \nTe esta saludando")
-    
+        print(f"Hola yo {self._name}, \nTe esta saludando")
+#Aqui hacemos una breve precentacion con este def
     def precentarse (self):
         """Presentacion"""
         self.precentarse = True
