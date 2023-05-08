@@ -5,7 +5,7 @@ Aqui los archivos van a estar comentados de las funciones que hacen cada uno esp
 
 ## Proyectos del repossitorio
 - Poo1 (Clases)
-- Proximamente
+- Poo2 (Clase hija del Poo1)
 
 ![Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
 
