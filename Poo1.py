@@ -3,8 +3,8 @@ import time
 #Aqui hacemos la funcionalidad
 #Priemro creamos una clase
 class Persona:
-    def __init__(self, name, age, profesion, dni):
-        self.__name = name
+    def __init__(self, __name, age, profesion, dni):
+        self.__name = __name
         self.__age = age
         self.__profesion = profesion
         self.__dni = dni
