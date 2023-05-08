@@ -1,9 +1,10 @@
-# Diagramas Orientado a Objetos (Poo)
+# Programacion Orientado a Objetos (Poo)
 
 Aqui les traigo un pequeño proyecto hecho en Python donde podemos ver la programacion orientada a objetos o mejor conocida como (POO).
+
 Aqui los archivos van a estar comentados de las funciones que hacen cada uno espero que les gusten :D
 
-## Proyectos del repossitorio
+## Proyectos del repositorio
 - Poo1 (Clases)
 - Poo2 (Clase hija del Poo1)
 
