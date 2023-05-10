@@ -35,7 +35,7 @@ class Pajaro(Animal):
         print("Pío!")
 #El sonido que hacer es Pio
 
-# Creamos una lista de animales con otros dato para que me los imprima en pantalla 
+# Creamos una instancia de animales con otros dato para que me los imprima en pantalla 
 animales = [Perro("Rex", 5, "perro"),
                 Gato("Garfield", 3, "gato"),
                 Pajaro("Tweety", 1, "pájaro")]
