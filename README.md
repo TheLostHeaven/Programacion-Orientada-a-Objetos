@@ -7,9 +7,17 @@ Aqui los archivos van a estar comentados de las funciones que hacen cada uno esp
 ## Proyectos del repositorio
 - Poo1 (Clases)
 - Poo2 (Clase hija del Poo1)
+- Animals
+- Drinks
+- Stars
+- Txt
+- Marerial (Materia)
+
+En todos los archivos estan bien comentados y que hacen cada cosa
 
 ![Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
 
+Se recibe FeedBack de algun fallo que tenga los programas :D
 ## Authors
 
 - [@TheLostHeaven](https://github.com/TheLostHeaven)
