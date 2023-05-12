@@ -6,7 +6,7 @@ Aqui los archivos van a estar comentados de las funciones que hacen cada uno esp
 
 ## Proyectos del repositorio
 - Poo1 (Clases)
-- Poo2 (Clase hija del Poo1)
+- Poo2
 - Animals
 - Drinks
 - Stars
